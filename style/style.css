@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+/* .header {
+    background-color: #3188dd;
+    height: 100vh;
+    min-width: 511px;
+} */
+
+/* .leftnav{
+    position: relative;
+
+} */
+
+/* .navigation {
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .logo {
+    background-color: white;
+    border-radius: 7px;
+    padding: 13px 2px;
+    font-size: 28px;
+    width: 262px;
+    font-weight: bold;
+    position: relative;
+    z-index: 999;
+} */
+
+/* #logostyle {
+    background-color: #FFFF0080;
+    position: absolute;
+    height: 50px;
+    width: 199px;
+    transform: skew(20deg, 10deg);
+    left: 300px; 
+}*/
+
+
+/* #compare {
+    color: #3188dd;
+    
+}
+
+#offers {
+    color: #70b2e5;
+    margin-left: -8px;
+} */
+
+
+
+.fa-square-check {
+    padding: 0px 9px;
+    color: #3188dd;
+
+}
+
+/* .navlist,
+li,
+a {
+    display: inline-block;
+    padding: 2px 7px;
+    color: white !important;
+    
+} */
+
+
+/* .navlist{
+    display: block;
+} */
+
+
+/* min width vaneko yo vanda kaam ma dekhauney */
+@media screen and (max-width: 610px) {
+    .navlist {
+        display: none;        
+    }
+    .leftnav{
+        margin: -6px -151px;
+    }
+
+}
+/* after navigation */
+/* .firstpage{
+    position: relative;
+    top: 96px;
+} */
+
+/* .credit{
+    min-width: 500px;
+    background-color:aqua;
+} */
+
+/* .student{
+    height: 300px;
+    width:300px
+} */
+
+/* section css starts here */
+
+/* .service-sec{
+        min-height: 560px;
+        min-width: 565px;    
+}
+
+.services{
+    text-align: center;
+    color: #3188dd;
+    padding: 70px 0px 0px 0px;
+    letter-spacing: 8px;
+}
+.financial-services{
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    
+    
+}
+.para2{
+    text-align: center;
+    color:#a3abb8;
+    padding: 0px 173px;
+} */
+
+
+/* Second Page Grid Section */
+
+
+/* .grid-height{
+    height: 180px;
+
+} */
+
+/* third page css */
+
+/* .third-page{
+    background-image: url(../img/globe-dots.png);
+    height: 454px;
+
+} */
+.third-page-left-sec{
+    
+}
+
+.mastercard{
+    display: flex;
+   
+    justify-content: space-between;
+    
+}
+/* .dc-mastercard{
+    height: 400px;
+    width: 400px;
+    background-color: #3188dd;
+    border-radius: 50%;
+    
+}
+.deservemc{
+    height: 157px;
+    width: 226px;
+    position: relative;
+    transform: rotate(43deg);
+    top: 65px;
+}
+.creditonemc{
+    height: 157px;
+    width: 237px;
+    position: relative;
+    transform: rotate(-51deg);
+    top: 64px;
+    left: 95px;
+} */
+
+
+/* compnay logo css */
+/* .company-logo{
+    display: flex;
+    justify-content: space-evenly;
+} */
+img[alt="china"]{
+    width: 100px;
+    height: 100px;
+}
+img[alt="ifc"]{
+    width: 100px;
+    height: 100px;
+}
+img[alt="highlander"]{
+    width: 80px;
+    height: 60px;
+    padding-top: 20px;
+}
+img[alt="service"]{
+    width: 80px;
+    height: 80px;
+}
+img[alt="exeter"]{
+    width: 100px;
+}
+
+
+/* insurance page */
+/* .insurance-page{
+    background-image: url(../img/globe-dots.png);
+} */
+
+/* footer */
+
+.footer-navlist{
+    padding-left: 0;
+}
+/* .footer-navlist li{
+    display: block;
+} */
+/* .footer-hero{
+    background-color: #3188dd;
+} */
+
+/* .copyright-section{
+    display: flex;
+    justify-content: space-between;
+
+} */
+img[alt="globe-photos"]{
+    height: 289px;
+    width: 300px;
+    margin-left: 147px;
+}
+
+

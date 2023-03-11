@@ -1,0 +1,542 @@
+.header {
+  background-color: #3188dd;
+  min-height: 560px;
+  min-width: 693px;
+}
+.header .navigation {
+  display: flex;
+  justify-content: space-around;
+}
+.header .navigation .leftnav .logo {
+  background-color: white;
+  border-radius: 7px;
+  padding: 13px 2px;
+  margin: -6px 0px;
+  font-size: 28px;
+  width: 262px;
+  font-weight: bold;
+  position: relative;
+  z-index: 999;
+}
+.header .navigation .leftnav .logo #compare {
+  color: #3188dd;
+}
+.header .navigation .leftnav .logo #offers {
+  color: #70b2e5;
+  margin-left: -8px;
+}
+.header .navigation .navmenu .navlist .navlist {
+  display: block;
+}
+.header .navigation .navmenu .navlist li {
+  display: inline-block;
+}
+.header .navigation .navmenu .navlist li a {
+  padding: 2px 7px;
+  color: white !important;
+}
+.header .navigation .navmenu .navlist li a .fa-solid {
+  font-size: 12px;
+}
+
+.firstpage {
+  position: relative;
+  top: 96px;
+}
+.firstpage .row .leftsec .credit {
+  max-width: 336px;
+  padding: 15px 0px;
+}
+.firstpage .row .leftsec .para1 {
+  padding: 15px 0px;
+}
+.firstpage .row .leftsec .iconbtn {
+  border: 1px solid white;
+  padding: 6px 9px;
+  padding-left: -1px;
+}
+.firstpage .row .leftsec .fa-solid {
+  padding-left: 99px;
+}
+.firstpage .row .rightsec .student {
+  height: 301px;
+  width: 261px;
+  position: relative;
+  top: 26px;
+}
+
+.service-sec {
+  min-height: 560px;
+  min-width: 693px;
+}
+.service-sec .insidesec .services {
+  text-align: center;
+  color: #3188dd;
+  padding: 70px 0px 0px 0px;
+  letter-spacing: 6px;
+}
+.service-sec .insidesec .financial-services {
+  text-align: center;
+  font-weight: bold;
+  font-size: 33px;
+}
+.service-sec .insidesec .para2 {
+  text-align: center;
+  color: #a3abb8;
+  padding: 0px 173px;
+}
+.service-sec .gridsec .gridlist .box1 .grid-height {
+  height: 290px;
+}
+.service-sec .gridsec .gridlist .box1 .grid-height .fa-solid {
+  font-size: 58px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  background-color: #e8f3fb;
+  padding: 8px 9px;
+  border-radius: 7px;
+  color: #3188dd;
+}
+.service-sec .gridsec .gridlist .box1 .grid-height p {
+  color: #a3abb8;
+}
+.service-sec .gridsec .gridlist .box2 .grid-height {
+  height: 290px;
+}
+.service-sec .gridsec .gridlist .box2 .grid-height .fa-sharp {
+  font-size: 58px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  background-color: #ffebf3;
+  padding: 8px 9px;
+  border-radius: 7px;
+  color: #ef4d85;
+}
+.service-sec .gridsec .gridlist .box2 .grid-height p {
+  color: #a3abb8;
+}
+.service-sec .gridsec .gridlist .box3 .grid-height {
+  height: 290px;
+}
+.service-sec .gridsec .gridlist .box3 .grid-height .fa-brands {
+  font-size: 58px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  background-color: #f1f1fc;
+  padding: 8px 9px;
+  border-radius: 7px;
+  color: #6e7dde;
+}
+.service-sec .gridsec .gridlist .box3 .grid-height p {
+  color: #a3abb8;
+}
+.service-sec .gridsec .gridlist .box4 .grid-height {
+  height: 290px;
+}
+.service-sec .gridsec .gridlist .box4 .grid-height .fa-solid {
+  font-size: 58px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  background-color: #ffebf3;
+  padding: 8px 9px;
+  border-radius: 7px;
+  color: #ef4d85;
+}
+.service-sec .gridsec .gridlist .box4 .grid-height p {
+  color: #a3abb8;
+}
+.service-sec .gridsec .gridlist .box5 .grid-height {
+  height: 290px;
+}
+.service-sec .gridsec .gridlist .box5 .grid-height .fa-solid {
+  font-size: 58px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  background-color: #f1f1fc;
+  padding: 8px 9px;
+  border-radius: 7px;
+  color: #6e7dde;
+}
+.service-sec .gridsec .gridlist .box5 .grid-height p {
+  color: #a3abb8;
+}
+.service-sec .gridsec .gridlist .box6 .grid-height {
+  height: 290px;
+}
+.service-sec .gridsec .gridlist .box6 .grid-height .fa-solid {
+  font-size: 58px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  background-color: #e8f3f9;
+  padding: 8px 9px;
+  border-radius: 7px;
+  color: #3b83cb;
+}
+.service-sec .gridsec .gridlist .box6 .grid-height p {
+  color: #a3abb8;
+}
+
+.third-page {
+  background-image: url(../img/globe-dots.png);
+  min-width: 669px;
+  min-height: 520px;
+}
+.third-page .third-page-left-sec .mastercard {
+  display: flex;
+  justify-content: space-between;
+}
+.third-page .third-page-left-sec .mastercard .dc-mastercard {
+  height: 390px;
+  width: 420px;
+  background-color: #3188dd;
+  border-radius: 50%;
+  margin: 70px 0px;
+  min-height: 200px;
+  min-width: 374px;
+}
+.third-page .third-page-left-sec .mastercard .dc-mastercard .deservemc {
+  height: 164px;
+  width: 226px;
+  position: relative;
+  transform: rotate(60deg);
+  top: 37px;
+  left: -27px;
+}
+.third-page .third-page-left-sec .mastercard .dc-mastercard .creditonemc {
+  height: 145px;
+  width: 222px;
+  position: relative;
+  transform: rotate(-55deg);
+  top: 34px;
+  left: 126px;
+}
+.third-page .third-page-left-sec .third-page-right-sec {
+  margin-top: 140px;
+  margin-left: 50px;
+}
+.third-page .third-page-left-sec .third-page-right-sec .offers {
+  color: #3188dd;
+  letter-spacing: 6px;
+}
+.third-page .third-page-left-sec .third-page-right-sec .find-top-credit {
+  font-weight: bold;
+  font-size: 33px;
+}
+.third-page .third-page-left-sec .third-page-right-sec .easily-compare {
+  color: #a3abb8;
+}
+.fourth-page {
+  min-width: 696px;
+}
+.fourth-page .fourth-page-text-area-one {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.fourth-page .fourth-page-text-area-one .services {
+  color: #3188dd;
+  letter-spacing: 6px;
+}
+.fourth-page .fourth-page-text-area-one .financial-services {
+  font-weight: bold;
+  font-size: 33px;
+}
+.fourth-page .fourth-page-text-area-one .para2 {
+  color: #a3abb8;
+}
+.fourth-page .three-steps {
+  margin-top: 50px;
+  margin-left: 90px;
+  text-align: left;
+}
+.fourth-page .three-steps .first-step .s1 {
+  background-color: #e74d83;
+  display: inline;
+  padding: 13px 23px;
+  box-shadow: 0px 28px 17px 2px #e74d83;
+  border-radius: 7px;
+}
+.fourth-page .three-steps .first-step .few-questions {
+  margin-top: 53px;
+}
+.fourth-page .three-steps .first-step .para1 {
+  color: #a3abb8;
+}
+.fourth-page .three-steps .second-step {
+  margin-top: 50px;
+}
+.fourth-page .three-steps .second-step .s2 {
+  background-color: #3089dd;
+  display: inline;
+  padding: 13px 23px;
+  border-radius: 7px;
+  box-shadow: 0px 28px 17px 2px #3089dd;
+}
+.fourth-page .three-steps .second-step .got-matched {
+  margin-top: 53px;
+}
+.fourth-page .three-steps .second-step .para2 {
+  color: #a3abb8;
+}
+.fourth-page .three-steps .third-step .s3 {
+  background-color: #757ce6;
+  display: inline;
+  padding: 13px 23px;
+  border-radius: 7px;
+  box-shadow: 0px 28px 17px 2px #757ce6;
+}
+.fourth-page .three-steps .third-step .close-the-deal {
+  margin-top: 53px;
+}
+.fourth-page .three-steps .third-step .para3 {
+  color: #a3abb8;
+}
+.fourth-page .fourth-page-text-area-two {
+  margin-top: 100px;
+}
+.fourth-page .fourth-page-text-area-two .brands {
+  color: #3188dd;
+  letter-spacing: 6px;
+}
+.fourth-page .fourth-page-text-area-two .get-matched {
+  font-weight: bold;
+  font-size: 33px;
+  max-width: 724px;
+  margin: auto;
+}
+.fourth-page .fourth-page-text-area-two .basic-questions {
+  color: #a3abb8;
+  margin-top: 15px;
+}
+.fourth-page .company-logo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.fourth-page .get-started-1 {
+  margin-top: 50px;
+}
+
+.insurance-page {
+  background-image: url(../img/globe-dots.png);
+  height: 400px;
+  margin-top: 100px;
+  min-width: 700px;
+}
+.insurance-page .content-area {
+  display: flex;
+  justify-content: space-between;
+}
+.insurance-page .content-area .text-area {
+  margin-top: 77px;
+}
+.insurance-page .content-area .text-area .safety {
+  color: #3188dd;
+  letter-spacing: 6px;
+}
+.insurance-page .content-area .text-area .your-card {
+  width: 310px;
+}
+.insurance-page .content-area .text-area .cryptocoin-higher-security {
+  border-left: 3px solid #0e53c3;
+}
+.insurance-page .content-area .text-area .cryptocoin-higher-security .cryptocoin {
+  margin-left: 22px;
+  width: 248px;
+}
+.insurance-page .insurance-style {
+  height: 331px;
+  width: 313px;
+  background-color: #3188dd;
+  border-radius: 50%;
+  margin: 70px 0px;
+  min-height: 220px;
+  min-width: 357px;
+  margin-top: 43px;
+}
+.insurance-page .insurance-style .insurance {
+  height: 353px;
+  width: 343px;
+  position: relative;
+  left: 26px;
+  top: -21px;
+}
+.insurance-page .insurance-style .insurance-man {
+  height: 242px;
+  width: 247px;
+  position: relative;
+  top: -283px;
+  left: -92px;
+}
+
+.faqpage {
+  min-width: 700px;
+  margin-top: 100px;
+}
+.faqpage .faqs {
+  letter-spacing: 6px;
+  color: #3188dd;
+}
+.faqpage .faquestions {
+  font-weight: bold;
+  font-size: 33px;
+}
+.faqpage .basic-questions {
+  color: #a3abb8;
+}
+.faqpage .threequestions {
+  margin-top: 50px;
+  border: none !important;
+  outline: none !important;
+}
+
+#answerpara2 {
+  text-align: left;
+}
+
+.second-last-page {
+  background-color: #dce6ee;
+  min-height: 600px;
+  width: 100%;
+  min-width: 694px;
+}
+.second-last-page .feedback {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.second-last-page .feedback .leftsec {
+  height: 331px;
+  width: 313px;
+  background-color: #3188dd;
+  border-radius: 50%;
+  min-height: 220px;
+  min-width: 357px;
+  margin-top: 135px;
+}
+.second-last-page .feedback .leftsec .img1 {
+  background-color: white;
+  height: 181px;
+  width: 185px;
+  border-radius: 11px;
+  text-align: center;
+  position: relative;
+  left: -50px;
+  top: 20px;
+}
+.second-last-page .feedback .leftsec .img1 .img1pp {
+  height: 91px;
+  width: 103px;
+  border-radius: 50%;
+}
+.second-last-page .feedback .leftsec .img1 .kaiden {
+  margin-top: 23px;
+  font-size: 19px;
+}
+.second-last-page .feedback .leftsec .img2 {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 151px;
+  width: 139px;
+  position: relative;
+  top: -233px;
+  left: 177px;
+  text-align: center;
+  border-radius: 11px;
+}
+.second-last-page .feedback .leftsec .img2 .img2pp {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+}
+.second-last-page .feedback .leftsec .img2 .kathryn {
+  margin-top: 23px;
+  font-size: 15px;
+}
+.second-last-page .feedback .leftsec .img3 {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 174px;
+  width: 172px;
+  position: relative;
+  top: -190px;
+  left: 168px;
+  text-align: center;
+  border-radius: 11px;
+}
+.second-last-page .feedback .leftsec .img3 .img3pp {
+  height: 72px;
+  width: 76px;
+  border-radius: 50%;
+}
+.second-last-page .feedback .leftsec .img3 .tammy {
+  margin-top: 23px;
+  font-size: 19px;
+}
+.second-last-page .feedback .leftsec .img4 {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 104px;
+  width: 87px;
+  position: relative;
+  top: -263px;
+  left: 66px;
+  text-align: center;
+  border-radius: 11px;
+}
+.second-last-page .feedback .leftsec .img4 .img4pp {
+  height: 38px;
+  width: 45px;
+  border-radius: 50%;
+}
+.second-last-page .feedback .leftsec .img4 .yenya {
+  margin-top: 16px;
+  font-size: 15px;
+}
+.second-last-page .feedback .rightsec {
+  margin-top: 112px;
+  margin-left: 63px;
+}
+.second-last-page .feedback .rightsec .testimonial {
+  color: #3188dd;
+  letter-spacing: 6px;
+}
+.second-last-page .feedback .rightsec .our-client {
+  font-weight: bold;
+  font-size: 33px;
+}
+.second-last-page .feedback .rightsec .few-basic {
+  color: #a3abb8;
+}
+.second-last-page .feedback .rightsec .img01pp {
+  border-radius: 58px;
+  height: 50px;
+}
+
+.footer-hero {
+  background-color: #3188dd;
+  min-width: 694px;
+}
+.footer-hero .footer-sec .footertext {
+  min-width: 694px;
+}
+.footer-hero .footer-sec .footertext .parabigone {
+  color: #a3abb8;
+}
+.footer-hero .footer-sec .footertext .business-email {
+  border: none;
+  padding: 6px 36px 9px;
+  border-radius: 7px;
+}
+.footer-hero .footer-sec .for-more-links .quick-links .footer-navlist li a {
+  color: white;
+}
+.footer-hero .footer-sec .for-more-links .compnay .footer-navlist li a {
+  color: white;
+}
+.footer-hero .footer-sec .for-more-links .information .footer-navlist li a {
+  color: white;
+}
+.footer-hero .copyright-section {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-hero .copyright-section a {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
